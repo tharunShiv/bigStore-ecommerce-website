@@ -29,21 +29,26 @@ A e-commerce website where sellers can upload the images, title , price and desc
 
 ## Some pre-registered users for quick testing
 
-Role: Admin
-Email: tharun@bigstore.com
-Password: tharun
+Role: Admin <br/>
+Email: tharun@bigstore.com <br/>
+Password: tharun <br/>
 
-Role: Client
-Email: anirudh@bigstore.com
-Password: venkatanirudh
+<br/>
+Role: Client<br/>
+Email: anirudh@bigstore.com<br/>
+Password: venkatanirudh<br/>
 
-Role: Client
-Email: naveen@bigstore.com
-Password: naveen
+<br/>
+Role: Client<br/>
+Email: naveen@bigstore.com<br/>
+Password: naveen<br/>
 
-Role: Client
-Email: vasanth@bigstore.com
-Password: vasanth
+<br/>
+Role: Client<br/>
+Email: vasanth@bigstore.com<br/>
+Password: vasanth<br/>
+
+<br/>
 
 ## Wanna Contribute?
 
