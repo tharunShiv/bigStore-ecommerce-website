@@ -1,6 +1,6 @@
 # BigStore - A fully functional e-commerce website
 
-    A e-commerce website where sellers can upload the images, title , price and description of their products easily. Customers can create their account in seconds to add products to their cart and get stuff delivered to their address.
+A e-commerce website where sellers can upload the images, title , price and description of their products easily. Customers can create their account in seconds to add products to their cart and get stuff delivered to their address.
 
 ## Technologies Used
 
