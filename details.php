@@ -47,7 +47,7 @@ else {
         <tr>
           <td><?= $product_details; ?></td>
           <td><?= $quantity_details; ?></td>
-          <td>Rs. <?= $price_details; ?></td>
+          <td>$ <?= $price_details; ?></td>
           <td><?= $user_details; ?></td>
           <td><?= $country_details; ?></td>
           <td><?= $city_details; ?></td>
@@ -78,11 +78,15 @@ else {
       <?php
 
         if (isset($_POST['done'])) {
+
+
+
           $queryupdate = "UPDATE details_command SET statut = 'done' WHERE id_user = '$idsess' AND statut = 'ready'";
           $queryupdate = mysqli_query($connection, $queryupdate);
 
           echo "<meta http-equiv='refresh' content='0;url=index' />";
         }
+
        ?>
     </form>
  </div>

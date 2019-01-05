@@ -63,6 +63,15 @@
 .stocki .card-content {
   background: #494551;
 }
+.nav-wrapper-2 .brand {
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 24px 24px;
+  margin-top: 6px;
+  transition: 0.5s;
+}
 
 .profile {
   padding-top: 40px;
@@ -188,16 +197,6 @@
 .addproduct .card:hover {
   transition: box-shadow 0.25s;
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.nav-wrapper-2 .brand {
-  background-image: url("../img/logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 24px 24px;
-  margin-top: 6px;
-  transition: 0.5s;
 }
 
 .addp {

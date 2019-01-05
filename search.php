@@ -78,7 +78,7 @@ else {
                    </div>
                    <div class="card-action">
                      <div class="container-fluid">
-                       <h5 class="white-text">Rs. <?= $price_product; ?></h5>
+                       <h5 class="white-text"><?= $price_product; ?> $</h5>
                      </div>
                    </div>
                </div>

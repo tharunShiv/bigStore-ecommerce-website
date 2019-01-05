@@ -48,7 +48,7 @@ else {
             </div>
 
             <div class="input-field col s6">
-              <select class="icons" name="country" value="<?= $country_sess; ?>">
+              <select class="icons" name="country" value="<?= $country_sess; ?>" required>
           <option value=""  disabled selected>Choose your country</option>
           <option value="India">India</option>
           <option value="China">China</option>

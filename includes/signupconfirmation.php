@@ -37,7 +37,7 @@ if ($connection->query($query) === TRUE) {
 
          echo "<div class='center-align'>
          <h5 class='black-text'>Welcome <span class='green-text'>$firstname</span> Please Log In</h5><br><br>
-         <a class='button-rounded btn waves-effects waves-light'>Log In</a><br/>
+         <a class='button-rounded btn waves-effects waves-light'>Log In</a>
          </div>";
 
      } else {

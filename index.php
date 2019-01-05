@@ -15,6 +15,16 @@ require 'includes/header.php';
 require $nav; ?>
 
 
+<!-- <div class="container-fluid">
+  <div class="carousel ">
+      <a class="carousel-item" href="#one!"><img src="src/img/carousel-1.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="src/img/carousel-2.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="src/img/carousel-3.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="src/img/carousel-4.jpg"></a>
+      <a class="carousel-item" href="#five!"><img src="src/img/carousel-5.jpg"></a>
+    </div>
+</div> -->
+
 <div class="container-fluid home" id="top">
   <div class="container search">
     <nav class="animated slideInUp wow">
@@ -190,6 +200,19 @@ require $nav; ?>
                     </form>
                   </div>
                 </div>
+
+                <!-- <script type="application/javascript">
+                document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.carousel');
+                var instances = M.Carousel.init(elems, options);
+                });
+
+                // Or with jQuery
+
+                $(document).ready(function(){
+                  $('.carousel').carousel();
+                });
+                </script> -->
 
                 <?php
                 require 'includes/secondfooter.php';

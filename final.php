@@ -111,7 +111,7 @@
      </div>
      <div class="card-content center-align">
        <h5>Thank you for your purchase</h5>
-       <p>Your order is on its way <h5 class="green-text"><?php echo"$firstname_sess". " " . "$lastname_sess";  ?></h5></p>
+       <p>Your order is on its way Dear : <h5 class="green-text"><?php echo"$firstname_sess". " " . "$lastname_sess";  ?></h5></p>
      </div>
    </div>
 

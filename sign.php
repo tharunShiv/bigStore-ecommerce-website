@@ -48,6 +48,16 @@ error_reporting(0);
           
         </div>
 
+        <!-- <div class="input-field col s6">
+          <select class="icons" name="country">
+      <option value=""  disabled selected>Choose your country</option>
+      <option value="Morocco">Morocco</option>
+      <option value="Egypt">Egypt</option>
+      <option value="Algeria">Algeria</option>
+    </select>
+    <label>Country</label>
+        </div> -->
+
         <div class="input-field col s6">
           <i class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" type="text" name="firstname" class="validate" required placeholder="Firstname">
@@ -90,7 +100,7 @@ error_reporting(0);
                 <button type="submit" id="confirmed" name="signup" class="btn meh button-rounded waves-effect waves-light ">Sign up</button>
             </div>
 
-            <p>By Registering, you agree that you've read and accepted our <a href="#">User Agreement</a>,
+            <p>By Registering, you agree that you've read and accepted our <a href="">User Agreement</a>,
               you're at least 18 years old, and you consent to our <a href="">Privacy Notice and receiving</a>
               marketing communications from us.</p>
       </div>
@@ -111,6 +121,7 @@ error_reporting(0);
            <div class="input-field col s12 meh">
              <i class="material-icons prefix">lock</i>
              <input id="icon_prefix" type="password" name="passworddb" class="validate" placeholder="Password">
+           
            </div>
 
            <?php require 'includes/loginconfirmation.php';?>

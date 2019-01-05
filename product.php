@@ -59,6 +59,7 @@ $id_product =$_GET['id'];
         </div>
        <div class="row">
          <?php
+
          //get categories
            $querypic = "SELECT picture, id_produit FROM pictures WHERE id_produit = '$id_pic'";
            $total = $connection->query($querypic);
@@ -97,7 +98,7 @@ $id_product =$_GET['id'];
             if (isset($_POST['buy'])) {
 
                if (!isset($_SESSION['logged_in'])) {
-                 echo "<meta http-equiv='refresh' content='0;url=http://localhost/bigstoreN/sign' />";
+                 echo "<meta http-equiv='refresh' content='0;url=http://localhost/Smartshop/sign' />";
                }
 
                else {
